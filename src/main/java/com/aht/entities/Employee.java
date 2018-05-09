@@ -27,7 +27,7 @@ public class Employee {
 	private String name;
 	@Column
 	@Temporal(TemporalType.DATE)
-	@DateTimeFormat(pattern = "dd/MM/yyyy")
+//	@DateTimeFormat(pattern = "dd/MM/yyyy")
 	private Date birthday;
 	@Column
 	private int sex;
